@@ -110,10 +110,10 @@ export default function Home() {
           </div>
           <Logo className="w-auto h-7 sm:h-8" />
           <h1 className="text-4xl sm:text-6xl lg:text-5xl leading-none font-extrabold tracking-tight text-gray-900 mt-10 mb-8 sm:mt-10 sm:mb-10">
-            {isChinese === true? "可视化你的数据" : "Data visualization"}
+            {isChinese === true? "可视化你的监控数据" : "Visualize your APM data"}
           </h1>
           <p className="max-w-screen-lg text-lg sm:text-2xl sm:leading-10 font-medium mb-10 sm:mb-11">
-            {isChinese === true ? "支持metrics、traces和logs数据类型，在保持轻量的同时又具备强大的企业级特性，为用户带来的强大的功能特性和极致的产品体验" : "Visualization for metrics, traces and logs, with powerful enterprise features while keeping its lightweight"}
+            {isChinese === true ? "支持metrics、traces和logs数据类型，类似grafana,但是更强大更适合企业级规模使用" : "Visualization for metrics, traces and logs, similar to Grafana, but much more powerful and suitable for enterprise scale use"}
           </p>
           <div className="flex flex-wrap space-y-4 sm:space-y-0 sm:space-x-4 text-center">
             <NextLink href={isChinese ? '/docs-cn' : '/docs'}>
