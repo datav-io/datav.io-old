@@ -94,10 +94,10 @@ export default function Home() {
                 </a>
               </NextLink> */}
               <a
-                href="https://github.com/tailwindlabs/tailwindcss"
+                href="https://github.com/opendatav/datav"
                 className="text-gray-400 hover:text-gray-500 transition-colors duration-200"
               >
-                <span className="sr-only">Tailwind CSS on GitHub</span>
+                <span className="sr-only">Datav on GitHub</span>
                 <svg width="24" height="24" viewBox="0 0 16 16" fill="currentColor">
                   <path
                     fillRule="evenodd"
