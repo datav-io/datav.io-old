@@ -61,6 +61,7 @@ export function Search({isChinese} = props) {
     <>
       <Head>
         <link rel="preconnect" href="https://BH4D9OD16A-dsn.algolia.net" crossOrigin="true" />
+        {/* <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" />  */}
       </Head>
       <button
         type="button"
@@ -109,8 +110,8 @@ export function Search({isChinese} = props) {
               distinct: 1,
             }}
             onClose={onClose}
-            indexName="tailwindcss"
-            apiKey="3df93446658cd9c4e314d4c02a052188"
+            indexName="datav"
+            apiKey="6ded39481d9dacc1a6bf14f059ae35d9"
             appId="BH4D9OD16A"
             navigator={{
               navigate({ suggestionUrl }) {
